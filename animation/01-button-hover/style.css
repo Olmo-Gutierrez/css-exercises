@@ -16,4 +16,14 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+
+}
+
+/* Make button bigger on hover */
+button{
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1)
 }
